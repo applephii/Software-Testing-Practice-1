@@ -1,6 +1,6 @@
-Rencana Pengujian (Test Plan) - Alur Pembelian E-Commerce (menggunakan SauceDemo.com)
+# Rencana Pengujian (Test Plan) - Alur Pembelian E-Commerce (menggunakan SauceDemo.com)
 
-1. Test Login (Autentikasi)
+## 1. Test Login (Autentikasi)
 Prasyarat: Pengguna belum login dan berada di halaman utama.
 
 Langkah-langkah:
@@ -13,7 +13,7 @@ Hasil yang Diharapkan:
 - Halaman login berhasil dimuat dan menampilkan form serta tombol dengan benar.
 - Setelah tombol login diklik, pengguna berhasil masuk dan URL berubah/diarahkan ke inventory.html.
 
-2. Test Add to Cart (Tambah ke Keranjang)
+## 2. Test Add to Cart (Tambah ke Keranjang)
 Prasyarat: Pengguna sudah login dan berada di halaman inventory.html.
 
 Langkah-langkah:
@@ -26,14 +26,14 @@ Hasil yang Diharapkan:
 - Heading dan daftar produk tampil dengan benar.
 - Setelah diklik, teks pada tombol "Add to Cart" berubah menjadi "Remove" untuk masing-masing produk yang dipilih.
 
-3. Verify Jumlah Barang (Verifikasi Keranjang)
+## 3. Verify Jumlah Barang (Verifikasi Keranjang)
 Langkah-langkah:
 1. Perhatikan ikon/tombol Shopping Cart di bagian atas halaman.
 
 Hasil yang Diharapkan:
 - Tombol Shopping Cart menampilkan teks/badge jumlah barang yang akurat (misal: "2 item") atau sesuai dengan jumlah produk yang baru saja ditambahkan.
 
-4. Checkout (Proses Pembayaran)
+## 4. Checkout (Proses Pembayaran)
 Langkah-langkah:
 1. Klik tombol Shopping Cart.
 2. Klik tombol Checkout.
